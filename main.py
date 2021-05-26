@@ -48,7 +48,7 @@ import os
 
 import os
 text = []
-texts_name =os.listdir("texts")
+texts_name = os.listdir("texts")
 for name in texts_name:
     with open(f"texts/{name}", encoding="utf-8") as f:
         lines = f.readlines()
@@ -56,6 +56,8 @@ for name in texts_name:
         lines = f"{name}\n{count_line}\n{lines}\n"
         text.append(lines)
 
-fin_text = 
-print(text)
+fin_text = 0
+print(str(text))
+
+with open("fin_text.txt", w, encoding="utf-8") as f
 
